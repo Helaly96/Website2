@@ -1,0 +1,487 @@
+.contain
+{
+  background-image: url("https://i.imgur.com/q3Kx3YW.jpg");
+  width: 100%;
+  min-height: 785px;
+  max-height: 785px;
+  background-size:100% 100%;
+  padding-top: 130px;
+
+}
+
+@font-face {
+    /*font-family: 'Hello'; /*a name to be used later*/
+    /*src: url("./(font).tff" )/*URL to font*/
+}
+
+
+.words
+{
+  /*font-family:"hello";*/
+  color:white;
+  font-size:350%;
+  position: absolute;
+  right:35%;
+  top:30%;
+  z-index: 10;
+}
+.contact
+{
+  background-color:rgba(255,255,255,0);
+  width:100%;
+  min-height: 560px;
+  position:relative;
+  padding: 0px ;
+
+}
+
+.ellipse
+{
+position: absolute;
+right:37%;
+top:25%;
+}
+
+.fb
+{
+  position:absolute;
+  left:16%;
+  top:4%;
+
+
+}
+
+
+.yt
+{
+  position:absolute;
+  right:16%;
+  top:67%;
+
+}
+
+.li
+{
+  position:absolute;
+  right:30%;
+  top:60%;
+}
+.gps
+{
+  position:absolute;
+  left:29%;
+  top:21%;
+
+}
+
+.sc
+{
+
+    position:absolute;
+    top:30%;
+    left:12%;
+
+}
+
+.ig
+{
+  position:absolute;
+  top:40%;
+  left:20%;
+}
+
+.tw
+{
+
+    position:absolute;
+    top:35%;
+    right:22%;
+
+}
+
+.email
+{
+  position:absolute;
+  top:48%;
+  right:12%;
+}
+.icons
+{
+  border-radius:100%;
+  border:solid 5px grey;
+}
+
+
+@media screen and (max-width:500px) {
+    /*input{
+        width:60px;
+        height:80px;
+    }*/
+
+
+    .fb
+    {
+      /*border: solid purple 10px;*/
+      width:65px;
+      height:65px;
+        top:13%;
+        left:3%;
+    }
+
+    .ig
+    {
+      position:absolute;
+      left:9%;
+      top:33%;
+      width:65px;
+      height:65px;
+    }
+
+    .sc
+    {
+      width:50px;
+      height:50px;
+      left:0%;
+      top:25%;
+    }
+
+    .gps
+    {
+
+      width:50px;
+      height:50px;
+      top:21%;
+      left:20%;
+
+    }
+
+
+    .yt
+    {
+      position:absolute;
+      right:6%;
+      top:53%;
+      width:65px;
+      height:65px;
+
+    }
+
+    .li
+    {
+      width:50px;
+      height:50px;
+      right:22%;
+      top:45%;
+    }
+
+    .email
+    {
+      width:50px;
+      height:50px;
+      top:43%;
+      right:0%;
+    }
+
+    .tw
+    {
+
+      width:65px;
+      height:65px;
+        top:33%;
+        right:10%;
+
+    }
+
+    .ellipse
+    {
+    width:132px;
+    height:132px;
+    right:30%;
+    top:25%;
+    }
+
+}
+
+@media screen and (max-width:769px) and (min-width:500px)
+/* bta3et el ipad wl note */
+{
+  .fb
+  {
+    /*border: solid purple 10px;*/
+    /* width:65px;
+    height:65px; */
+      top:4%;
+      left:3%;
+  }
+
+  .ig
+  {
+    position:absolute;
+    left:0%;
+    top:45%;
+    /* width:65px;
+    height:65px; */
+  }
+
+  .sc
+  {
+    width:80px;
+    height:80px;
+    left:0%;
+    top:29%;
+  }
+
+  .gps
+  {
+
+    width:80px;
+    height:80px;
+    top:30%;
+    left:18%;
+
+  }
+
+
+  .yt
+  {
+    position:absolute;
+    right:0%;
+    top:64%;
+    /* width:65px;
+    height:65px; */
+
+  }
+
+  .li
+  {
+    width:80px;
+    height:80px;
+    right:18%;
+    top:54%;
+  }
+
+  .email
+  {
+    width:80px;
+    height:80px;
+    top:45%;
+    right:0%;
+  }
+
+  .tw
+  {
+
+    /* width:65px;
+    height:65px; */
+      top:25%;
+      right:10%;
+
+  }
+
+  .ellipse
+  {
+
+  right:33%;
+  top:25%;
+  width:250px;
+  height:250px;
+  /* border: solid yellow 5px; */
+  }
+
+}
+
+
+@media screen and (max-height:421px) and (min-height:359px)
+/* bta3et el ipad wl note */
+{
+  .fb
+  {
+    /*border: solid purple 10px;*/
+    width:90px;
+    height:90px;
+      top:9%;
+      left:1%;
+  }
+
+  .ig
+  {
+    position:absolute;
+    left:9%;
+    top:45%;
+    width:90px;
+    height:90px;
+  }
+
+  .sc
+  {
+    width:80px;
+    height:80px;
+    left:0%;
+    top:29%;
+  }
+
+  .gps
+  {
+
+    width:80px;
+    height:80px;
+    top:20%;
+    left:16%;
+
+  }
+
+
+  .yt
+  {
+    position:absolute;
+    right:0%;
+    top:64%;
+    width:90px;
+    height:90px;
+
+  }
+
+  .li
+  {
+    width:80px;
+    height:80px;
+    right:15%;
+    top:54%;
+  }
+
+  .email
+  {
+    width:80px;
+    height:80px;
+    top:47%;
+    right:0%;
+  }
+
+  .tw
+  {
+
+    width:90px;
+    height:90px;
+      top:33%;
+      right:12%;
+
+  }
+
+  .ellipse
+  {
+
+  right:33%;
+  top:25%;
+  width:200px;
+  height:200px;
+  /* border: solid yellow 5px; */
+  }
+
+}
+
+@media screen and (max-width:770px) and (min-width:767px)
+/* bta3et el ipad wl note */
+{
+
+  .ellipse
+  {
+
+  right:33%;
+  top:25%;
+  width:250px;
+  height:250px;
+  /* border: solid yellow 5px; */
+  }
+
+}
+
+@media screen and (max-width:1366px) and (min-width:1024px)
+/* bta3et el ipad wl note */
+{
+
+  .ellipse
+  {
+
+  right:30%;
+  top:20%;
+  width:400px;
+  height:400px;
+  /* border: solid yellow 5px; */
+  }
+
+
+  .fb
+  {
+    /*border: solid purple 10px;*/
+    width:150px;
+    height:150px;
+      top:9%;
+      left:1%;
+  }
+
+  .ig
+  {
+    position:absolute;
+    left:9%;
+    top:45%;
+    width:150px;
+    height:150px;
+  }
+
+  .sc
+  {
+    width:90px;
+    height:90px;
+    left:0%;
+    top:37%;
+  }
+
+  .gps
+  {
+
+    width:90px;
+    height:90px;
+    top:20%;
+    left:16%;
+
+  }
+
+
+  .yt
+  {
+    position:absolute;
+    right:0%;
+    top:64%;
+    width:150px;
+    height:150px;
+
+  }
+
+  .li
+  {
+    width:90px;
+    height:90px;
+    right:15%;
+    top:62%;
+  }
+
+  .email
+  {
+    width:90px;
+    height:90px;
+    top:47%;
+    right:0%;
+  }
+
+  .tw
+  {
+
+    width:150px;
+    height:150px;
+      top:33%;
+      right:12%;
+
+  }
+
+
+}

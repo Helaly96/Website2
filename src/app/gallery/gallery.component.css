@@ -1,0 +1,45 @@
+.img {
+    height: 200px;
+    display: block;
+    margin: auto;
+    filter: grayscale(100%);
+}
+
+.img:hover {
+    filter: grayscale(0%);
+}
+
+#red {
+    background: #D52B1E;
+    color: white;
+}
+
+#yellow {
+    background: #FFD500;
+    color: red;
+}
+
+#green {
+    background: green;
+    color: yellow;
+}
+
+#blue {
+    background: #66C7CE;
+}
+
+h1 {
+    font-weight: bold;
+    margin-top: 15%;
+}
+
+.cols {
+    padding-top: 15%;
+    padding-bottom: 15%;
+    display: inline-block;
+    filter: grayscale(100%);
+}
+
+.cols:hover {
+    filter: grayscale(0%);
+}

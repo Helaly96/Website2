@@ -1,0 +1,112 @@
+.Formula
+{
+	width: 100%;
+	min-height: 500px;
+
+	background-color: #781e13;
+		margin-top:50px;
+		margin-bottom: 50px;
+
+
+}
+
+
+.Eco
+{
+	width: 100%;
+	min-height: 500px;
+
+	background-color: #e9b007;
+		margin-top:50px;
+		margin-bottom: 50px;
+}
+
+
+.carousel-item
+{
+	padding-top: 90px;
+
+}
+
+.slide1
+{
+  /* background-image: url( http://asuracingteam.org/images/4-Ourprojects2.8c63a30c.jpg); */
+	padding-right: 20px;
+	padding-top: 80px;
+  background-color: rgba(0,0,0,0);
+  width:100%;
+  min-height: 500px;
+
+}
+
+.slide2
+{
+	padding-top: 80px;
+  background-color: rgba(0,0,0,0);
+  width:100%;
+  min-height: 500px;
+
+}
+
+
+.slide3
+{
+	padding-top: 80px;
+  background-color: rgba(0,0,0,0);
+  width:100%;
+  min-height: 500px;
+
+}
+
+.black
+{
+  background-color: rgba(0,0,0,0);
+  height: 500px;
+}
+
+
+.grey
+{
+  background-color: rgba(0,0,0,0);
+  height: 500px;
+}
+
+.empty
+{
+  visibility: hidden;
+  height: 100%;
+}
+
+
+#value
+{
+  font-size: 200px;
+  color: white;
+}
+
+
+#value2
+{
+  font-size: 200px;
+  color: white;
+}
+
+#value3
+{
+  font-size: 200px;
+  color: white;
+}
+
+.card
+{
+	height:300px;
+}
+
+.logo1
+{
+	background-image: url(https://i.imgur.com/es6KHVr.png);
+	background-repeat:no-repeat;
+	background-size:contain;
+	
+
+}

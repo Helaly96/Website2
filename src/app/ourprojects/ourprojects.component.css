@@ -1,0 +1,68 @@
+.slide1
+{
+  background-image: url( http://asuracingteam.org/images/4-Ourprojects2.8c63a30c.jpg);
+  background-color: red;
+  width:100%;
+  min-height: 500px;
+
+}
+
+.slide2
+{
+
+  background-image: url( http://asuracingteam.org/images/4-Ourprojects1.8c4cf877.jpg);
+  background-color: blue;
+  background-size: cover;
+  width:100%;
+  min-height: 500px;
+
+}
+
+
+.slide3
+{
+  background-image: url( http://asuracingteam.org/images/4-Ourprojects3.f4169124.jpg);
+  background-color: black;
+  width:100%;
+  min-height: 500px;
+
+}
+
+.black
+{
+  background-color: black;
+  height: 500px;
+}
+
+
+.grey
+{
+  background-color: rgba(25,25,25.0.9);
+  height: 500px;
+}
+
+.empty
+{
+  visibility: hidden;
+  height: 100%;
+}
+
+
+#value
+{
+  font-size: 200px;
+  color: white;
+}
+
+
+#value2
+{
+  font-size: 200px;
+  color: white;
+}
+
+#value3
+{
+  font-size: 200px;
+  color: white;
+}

@@ -1,0 +1,195 @@
+.footer_large
+{
+height: 200px;
+background-image: url(./Background2.jpg);
+}
+
+.logo
+{
+  background-image: url(./RT.png);
+  height: 190px;
+  overflow: hidden;
+  background-repeat: no-repeat;
+
+}
+
+#Copyrights
+{
+  color: white;
+  float: down;
+
+}
+
+.followus
+{
+  padding-top: 50px;
+}
+
+.fb
+{
+
+  width: 70px;
+  height: 70px;
+  border: 0px;
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+   filter: grayscale(100%);
+}
+
+.instagram
+{
+
+  width: 70px;
+  height: 70px;
+  border: 0px;
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+   filter: grayscale(100%);
+}
+
+.twitter
+{
+
+  width: 70px;
+  height: 70px;
+  border: 0px;
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+   filter: grayscale(100%);
+}
+
+.google
+{
+
+  width: 70px;
+  height: 70px;
+  border: 0px;
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+   filter: grayscale(100%);
+}
+
+.linkedin
+{
+
+  width: 70px;
+  height: 70px;
+
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+   filter: grayscale(100%);
+}
+
+
+.fb:hover
+{
+  -webkit-filter: grayscale(0%); /* Safari 6.0 - 9.0 */
+   filter: grayscale(0%);
+
+}
+
+.twitter:hover
+{
+  -webkit-filter: grayscale(0%); /* Safari 6.0 - 9.0 */
+   filter: grayscale(0%);
+}
+
+.google:hover
+{
+  -webkit-filter: grayscale(0%); /* Safari 6.0 - 9.0 */
+   filter: grayscale(0%);
+}
+
+.linkedin:hover
+{
+  -webkit-filter: grayscale(0%); /* Safari 6.0 - 9.0 */
+   filter: grayscale(0%);
+}
+
+.instagram:hover
+{
+  -webkit-filter: grayscale(0%); /* Safari 6.0 - 9.0 */
+   filter: grayscale(0%);
+}
+
+
+@media screen and (max-width:959px) and (min-width:700px)
+{
+
+.fb
+{
+  width:55px;
+  height: 55px;
+}
+
+.twitter
+{
+  width:55px;
+  height: 55px;
+}
+
+.linkedin
+{
+  width:55px;
+  height: 55px
+}
+
+.instagram
+{
+  width:55px;
+  height: 55px;
+}
+
+.google
+{
+  width:55px;
+  height: 55px;
+}
+
+.logo
+{
+  background-size: contain;
+  background-image: center;
+}
+
+
+}
+
+
+@media screen and (max-width:699px)
+{
+
+.fb
+{
+  width:45px;
+  height: 45px;
+}
+
+.twitter
+{
+  width:45px;
+  height: 45px;
+}
+
+.linkedin
+{
+  width:45px;
+  height: 45px
+}
+
+.instagram
+{
+  width:45px;
+  height: 45px;
+}
+
+.google
+{
+  width:45px;
+  height: 45px;
+}
+
+.logo
+{
+  background-size: contain;
+  background-image: center;
+  /* margin-top: 25%; */
+}
+
+
+}
