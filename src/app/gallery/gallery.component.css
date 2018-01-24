@@ -43,3 +43,106 @@ h1 {
 .cols:hover {
     filter: grayscale(0%);
 }
+
+/* .S1
+{
+  background-image: url(http://asuracingteam.org/images/4-Ourprojects1.8c4cf877.jpg);
+  height: 500px;
+   
+         
+  position: relative;
+  background-size: contain;
+  background-position: center center;
+  background-repeat: no-repeat;
+  height: 100%;    
+ 
+
+}
+
+.S2
+{
+  background-image: url(http://asuracingteam.org/images/4-Ourprojects1.8c4cf877.jpg);
+  height: 500px;
+  background-size: cover;
+}
+
+.S3
+{
+  background-image: url(http://asuracingteam.org/images/4-Ourprojects1.8c4cf877.jpg);
+  height: 500px;
+} */
+
+
+
+.modal-header {
+    padding:9px 15px;
+    border-bottom:1px solid black;
+    background-color:black;
+    -webkit-border-top-left-radius: 5px;
+    -webkit-border-top-right-radius: 5px;
+    -moz-border-radius-topleft: 5px;
+    -moz-border-radius-topright: 5px;
+     border-top-left-radius: 5px;
+     border-top-right-radius: 5px;
+     
+ }
+
+ 
+.modal-body {
+    padding:9px 15px;
+    padding-top:20%;
+    padding-bottom:20%;
+    background-color: black ;
+    -webkit-border-top-left-radius: 5px;
+    -webkit-border-top-right-radius: 5px;
+    -moz-border-radius-topleft: 5px;
+    -moz-border-radius-topright: 5px;
+     border-top-left-radius: 5px;
+     border-top-right-radius: 5px;
+ }
+
+ /* .modal-body {
+    padding:9px 15px;
+    border-bottom:1px solid #eee;
+    background-color: #0480be;
+    -webkit-border-top-left-radius: 5px;
+    -webkit-border-top-right-radius: 5px;
+    -moz-border-radius-topleft: 5px;
+    -moz-border-radius-topright: 5px;
+     border-top-left-radius: 5px;
+     border-top-right-radius: 5px;
+ } */
+
+
+ .modal-footer {
+    padding:9px 15px;
+    border-bottom:1px solid #eee;
+    background-color:#D52B1E;
+    -webkit-border-top-left-radius: 5px;
+    -webkit-border-top-right-radius: 5px;
+    -moz-border-radius-topleft: 5px;
+    -moz-border-radius-topright: 5px;
+     border-top-left-radius: 5px;
+     border-top-right-radius: 5px;
+ }
+
+h5
+
+    {
+        color: white;
+        margin-left: 50%;
+        transform: translate(-50%);
+    }
+
+
+
+    
+
+    .test
+    {
+        max-width: 100%;
+        height:auto;
+        display: block;
+        border: solid white 5px;
+
+    }
