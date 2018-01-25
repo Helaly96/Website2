@@ -1,0 +1,57 @@
+#red {
+    background: #D52B1E;
+    color: white;
+    min-height: 300px;
+    background-image: url(https://scontent-cai1-1.xx.fbcdn.net/v/t1.0-9/21761513_1520520721342693_882382568345349155_n.jpg?oh=4ddedcc282e46d45e95421f2f5065338&oe=5B2648D8);
+    background-size: cover;
+    border: red 5px solid;
+   
+    filter: grayscale(100%);
+    
+}
+
+#yellow {
+    background: #FFD500;
+    color: red;
+    min-height: 300px;
+    background-image: url(http://asuracingteam.org/images/4-Ourprojects1.8c4cf877.jpg);
+    background-size: cover;
+    border: red 5px solid;
+    filter: grayscale(100%);
+    
+}
+
+#green {
+    background: green;
+    color: yellow;
+    min-height: 300px;
+    background-image: url(http://asuracingteam.org/images/4-Ourprojects3.f4169124.jpg);
+    background-size: cover;
+    border: red 5px solid;
+    filter: grayscale(100%);
+}
+
+#blue {
+    background: #66C7CE;
+    min-height: 300px;
+    background-image: url(https://scontent-cai1-1.xx.fbcdn.net/v/t1.0-9/21765275_1525882824139816_8805695880362652260_n.jpg?oh=27035267a09074bf2f0f0f19e8bf9e26&oe=5B22A612);
+    background-size: cover;
+    border: red 5px solid;
+    filter: grayscale(100%);
+}
+
+#red:hover , #yellow:hover , #blue:hover , #green:hover
+{
+border: solid white 5px;
+width:75%;
+cursor:pointer;
+filter: grayscale(0%);
+}
+
+
+  
+  
+  .h3
+  {
+      color:white;
+  }

@@ -10,6 +10,7 @@ export class FooterComponent implements OnInit {
   constructor() { }
 
    x = 1 ;
+   
 
   ngOnInit() {
 
@@ -19,23 +20,23 @@ export class FooterComponent implements OnInit {
 
       if(window.innerWidth > 960)
       {
-        console.log("large")
+        // console.log("large")
         this.x=1
 
       }
       else if (window.innerWidth > 700 && window.innerWidth < 960 )
       {
-        console.log("Medium")
+        
         this.x=2
       }
 
       else
       {
-        console.log("Small")
+        // console.log("Small")
         this.x=3
       }
 
-        console.log(this.x)
+        // console.log(this.x)
 
 
 

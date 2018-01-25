@@ -8,6 +8,7 @@ import { ContactusComponent } from './contactus/contactus.component';
 import { OurProjectsComponent } from './ourprojects/ourprojects.component';
 import { FooterComponent } from './footer/footer.component';
 import { GalleryComponent } from './gallery/gallery.component';
+import { MapComponent } from './map/map.component';
 
 
 @NgModule({
@@ -17,7 +18,8 @@ import { GalleryComponent } from './gallery/gallery.component';
     ContactusComponent,
     OurProjectsComponent,
     FooterComponent,
-    GalleryComponent
+    GalleryComponent,
+    MapComponent
   ],
   imports: [
     BrowserModule
